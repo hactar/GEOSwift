@@ -162,7 +162,7 @@ private func ParseGEOJSONFeature(_ GEOJSONFeature: [String: AnyObject]) -> Featu
     return nil
 }
 
-private func ParseGEOJSONGeometryCollection(_ geometries: NSArray) -> [Geometry]? {
+public func ParseGEOJSONGeometryCollection(_ geometries: NSArray) -> [Geometry]? {
     // map every geometry representation to a GEOS geometry
     var GEOSGeometries = [Geometry]()
     for geometry in geometries {
