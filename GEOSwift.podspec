@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
   s.cocoapods_version = '>= 1.4.0'
   s.summary = 'The Swift Geographic Engine.'
-  s.description  = <<~DESC
+  s.description  = <<-DESC
     Easily handle a geographical object model (points, linestrings, polygons etc.) and related
     topographical operations (intersections, overlapping etc.). A type-safe, MIT-licensed Swift
     interface to the OSGeo's GEOS library routines, nicely integrated with MapKit and Quicklook.
